@@ -472,6 +472,11 @@ ul {
   transition: filter 180ms ease, opacity 180ms ease, transform 180ms ease;
 }
 
+.brand-tile-youpal img {
+  max-width: 11rem;
+  height: 4.4rem;
+}
+
 .brand-tile:hover img,
 .brand-tile:focus-within img {
   filter: grayscale(0);
@@ -724,6 +729,11 @@ ul {
   .brand-tile img {
     max-width: 8rem;
     height: 3rem;
+  }
+
+  .brand-tile-youpal img {
+    max-width: 9.5rem;
+    height: 3.8rem;
   }
 
   .site-footer {
