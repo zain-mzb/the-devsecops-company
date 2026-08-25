@@ -689,12 +689,15 @@ ul {
   .site-header {
     display: grid;
     grid-template-columns: 1fr;
-    justify-items: start;
+    justify-items: center;
     border-radius: 1.6rem;
+    padding: 1.25rem 1rem;
+    gap: 1.25rem;
   }
 
   .site-nav {
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.9rem 1.1rem;
   }
 
@@ -715,6 +718,10 @@ ul {
   }
 
   .hero-actions {
+    grid-auto-flow: row;
+  }
+
+  .contact-actions {
     grid-auto-flow: row;
   }
 
